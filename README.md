@@ -1,4 +1,4 @@
-# Patternify
+[![Build Status](https://travis-ci.org/nsommer/patternify.svg?branch=master)](https://travis-ci.org/nsommer/patternify)# Patternify
 
 This ruby gem provides a DSL to describe patterns of regular expressions in a more human readable way.
 
@@ -13,7 +13,7 @@ pattern = Patternify::Pattern do
   one_or_many do
     negate do
       string "."
-	end
+    end
   end
   
   string "."
@@ -29,7 +29,7 @@ end
 
 pattern.to_s
 
-# => .+@[^\.]+.[^\.]+
+# => .+@[^\.]+.(com|org|net)
 
 pattern.to_regexp.match?("john.doe@example.org")
 
