@@ -12,7 +12,7 @@ pattern = Patternify::Pattern do
   
   one_or_many do
     negate do
-	  string "."
+      string "."
 	end
   end
   
