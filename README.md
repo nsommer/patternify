@@ -38,7 +38,7 @@ pattern.to_regexp.match?("john.doe@example.org")
 # => true
 ```
 
-**Note:** I started this gem for fun and it is higly incomplete and lacks validations and documentation. Pull requests are welcome.
+**Note:** I started this gem for fun and it is highly incomplete and lacks validations and documentation. Pull requests are welcome.
 
 ## Installation
 
