@@ -22,9 +22,9 @@ pattern = Patternify::Pattern do
   
   either do
     string "com"
-  or do
+  end.or do
     string "org"
-  or do
+  end.or do
     string "net"
   end
 end
