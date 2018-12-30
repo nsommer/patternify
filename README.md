@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/nsommer/patternify.svg?branch=master)](https://travis-ci.org/nsommer/patternify)# Patternify
+[![Build Status](https://travis-ci.org/nsommer/patternify.svg?branch=master)](https://travis-ci.org/nsommer/patternify)
+
+# Patternify
 
 This ruby gem provides a DSL to describe patterns of regular expressions in a more human readable way.
 
